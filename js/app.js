@@ -8,7 +8,6 @@ const photosElla = [
   {src:"img/cabello_liso.jpg",name:"Cabello liso"},
   {src:"img/flores_mujer.jpg",name:"Flores día de la mujer"},
   {src:"img/1000092922.jpg",name:"Selfie espejo"},
-  {src:"img/1000092926.jpg",name:"Dibujo del gato"},
   {src:"img/1000092927.jpg",name:"Daniela bebé"},
   {src:"img/1000092916.jpg",name:"1000092916.jpg"},{src:"img/1000092918.jpg",name:"1000092918.jpg"},{src:"img/1000092920.jpg",name:"1000092920.jpg"},{src:"img/1000092933.jpg",name:"1000092933.jpg"},{src:"img/1000092934.jpg",name:"1000092934.jpg"},{src:"img/1000092940.jpg",name:"1000092940.jpg"},{src:"img/1000092944.jpg",name:"1000092944.jpg"},{src:"img/1000092949.jpg",name:"1000092949.jpg"},{src:"img/1000092950.jpg",name:"1000092950.jpg"}
 ];
@@ -16,7 +15,7 @@ const photosGatos = [{src:"img/1000092915.jpg",name:"1000092915.jpg"},{src:"img/
 const photosSalidas = [{src:"img/1000092928.jpg",name:"1000092928.jpg"},{src:"img/1000092929.jpg",name:"1000092929.jpg"},{src:"img/1000092921.jpg",name:"1000092921.jpg"},{src:"img/1000092931.jpg",name:"1000092931.jpg"}];
 const photosEspeciales = [
   {src:"img/carta_valentin.jpg",name:"Carta San Valentín"},
-  {src:"img/regalos.jpg",name:"Regalos"},
+  {src:"img/1000092926.jpg",name:"Dibujo del gato"},
   {src:"img/1000092917.jpg",name:"Dexter"}
 ];
 const photosCialy = [

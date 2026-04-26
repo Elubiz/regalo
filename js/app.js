@@ -26,13 +26,22 @@ fillAlbum('album-chess', photosGatos, 'count-chess');
 fillAlbum('album-momentos', photosEspeciales, 'count-momentos');
 fillAlbum('album-cialy', photosCialy, 'count-cialy');
 
-// Llenar salidas con fotos reales
+// Llenar salidas con fotos reales y nuevas
 const salidasData = [
-  {foto: photosSalidas[0] ? photosSalidas[0].src : null, nombre: 'Ramen juntos', desc: 'El restaurante con los bowls de ramen y cocktails de fresa y margarita 🍜'},
-  {foto: photosSalidas[1] ? photosSalidas[1].src : null, nombre: 'Noche de ramen', desc: 'Esa cena especial donde pedimos dos bowls del mismo 🥢'},
-  {foto: photosSalidas[2] ? photosSalidas[2].src : null, nombre: 'Surcando las nubes', desc: 'Un viaje, el cielo desde arriba y las nubes al atardecer ✈️'},
-  {foto: photosSalidas[3] ? photosSalidas[3].src : null, nombre: 'Noches en la ciudad', desc: 'Salidas nocturnas, ventana del carro y la ciudad de noche 🌙'},
-  {foto: photosCialy[0] ? photosCialy[0].src : null, nombre: 'Fiesta de 15 de Cialy 🎉', desc: 'Primera vez que salimos hasta las 3 AM. Los papás de Elian nos llevaron y recogieron. Una noche inolvidable.'}
+  {foto: photosSalidas[0].src, nombre: 'Aquel Ramen', desc: 'Nuestra cita favorita, donde los sabores se mezclan con risas y cocktails 🍜'},
+  {foto: photosSalidas[1].src, nombre: 'Cena Especial', desc: 'Compartir el mismo plato, la misma mirada y el mismo amor 🥢'},
+  {foto: photosSalidas[2].src, nombre: 'Vuelo compartido', desc: 'El cielo se ve más azul cuando estamos juntos sobre las nubes ✈️'},
+  {foto: photosSalidas[3].src, nombre: 'Ciudad de noche', desc: 'Ibagué bajo las estrellas, siendo cómplice de nuestras historias 🌙'},
+  {foto: photosCialy[0].src, nombre: 'Gala de 15', desc: 'Una noche de baile y elegancia que guardaremos por siempre 🎉'},
+  {foto: null, nombre: 'Nuestro Halloween', desc: 'De trampa o trato a un hogar cálido con tus padres 🎃'},
+  {foto: null, nombre: 'Noche de Padres', desc: 'Finales de noviembre, desconexión del mundo y conexión con la familia 🍻'},
+  {foto: null, nombre: 'Belleza Radiante', desc: 'Inicios de diciembre, cuando tu cabello liso iluminó mis días ✨'},
+  {foto: null, nombre: 'Kilómetros Juntos', desc: 'El viaje a ver a mi abuela, nuestra primera gran aventura en ruta 🛣️'},
+  {foto: null, nombre: 'Reunión en El Salado', desc: 'Madrugadas de risas familiares que no queríamos que terminaran 🏠'},
+  {foto: null, nombre: 'San Valentín a distancia', desc: 'Cuatro días en Cartagena que se sintieron cortos con tu carta 💌'},
+  {foto: null, nombre: 'Mar de Regalos', desc: '3 de marzo, el día que me hiciste sentir el más afortunado 🎁'},
+  {foto: null, nombre: 'Flores para Ti', desc: '8 de marzo, un pequeño detalle para la mujer que lo es todo 💐'},
+  {foto: null, nombre: 'Tarde de Cumple', desc: '19 de abril, celebrando la vida de JuanCa siempre a tu lado 🎂'}
 ];
 
 const sGrid = document.getElementById('salidas-grid');

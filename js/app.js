@@ -7,19 +7,22 @@ const photosCouple = [
 const photosElla = [
   {src:"img/cabello_liso.jpg",name:"Cabello liso"},
   {src:"img/flores_mujer.jpg",name:"Flores día de la mujer"},
+  {src:"img/1000092922.jpg",name:"Selfie espejo"},
+  {src:"img/1000092926.jpg",name:"Dibujo del gato"},
+  {src:"img/1000092927.jpg",name:"Daniela bebé"},
   {src:"img/1000092916.jpg",name:"1000092916.jpg"},{src:"img/1000092918.jpg",name:"1000092918.jpg"},{src:"img/1000092920.jpg",name:"1000092920.jpg"},{src:"img/1000092933.jpg",name:"1000092933.jpg"},{src:"img/1000092934.jpg",name:"1000092934.jpg"},{src:"img/1000092940.jpg",name:"1000092940.jpg"},{src:"img/1000092944.jpg",name:"1000092944.jpg"},{src:"img/1000092949.jpg",name:"1000092949.jpg"},{src:"img/1000092950.jpg",name:"1000092950.jpg"}
 ];
 const photosGatos = [{src:"img/1000092915.jpg",name:"1000092915.jpg"},{src:"img/1000092919.jpg",name:"1000092919.jpg"},{src:"img/1000092925.jpg",name:"1000092925.jpg"}];
 const photosSalidas = [{src:"img/1000092928.jpg",name:"1000092928.jpg"},{src:"img/1000092929.jpg",name:"1000092929.jpg"},{src:"img/1000092921.jpg",name:"1000092921.jpg"},{src:"img/1000092931.jpg",name:"1000092931.jpg"}];
 const photosEspeciales = [
   {src:"img/carta_valentin.jpg",name:"Carta San Valentín"},
-  {src:"img/1000092917.jpg",name:"1000092917.jpg"},{src:"img/1000092922.jpg",name:"1000092922.jpg"},{src:"img/1000092926.jpg",name:"1000092926.jpg"},{src:"img/1000092927.jpg",name:"1000092927.jpg"}
+  {src:"img/regalos.jpg",name:"Regalos"},
+  {src:"img/1000092917.jpg",name:"Dexter"}
 ];
 const photosCialy = [
   {src:"img/cialy_1.jpg",name:"Gala 1"},
   {src:"img/cialy_2.jpg",name:"Gala 2"},
-  {src:"img/cialy_3.jpg",name:"Gala 3"},
-  ...photosEspeciales
+  {src:"img/cialy_3.jpg",name:"Gala 3"}
 ];
 
 // Llenar álbumes
@@ -43,7 +46,7 @@ fillAlbum('album-chess', photosGatos, 'count-chess');
 fillAlbum('album-momentos', photosEspeciales, 'count-momentos');
 fillAlbum('album-cialy', photosCialy, 'count-cialy');
 
-// Llenar salidas con fotos reales y nuevas
+// Llenar salidas con fotos reales
 const salidasData = [
   {foto: photosSalidas[0].src, nombre: 'Aquel Ramen', desc: 'Nuestra cita favorita, donde los sabores se mezclan con risas y cocktails 🍜'},
   {foto: photosSalidas[1].src, nombre: 'Cena Especial', desc: 'Compartir el mismo plato, la misma mirada y el mismo amor 🥢'},

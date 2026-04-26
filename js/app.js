@@ -3,11 +3,12 @@ const photosElla = [{src:"img/1000092916.jpg",name:"1000092916.jpg"},{src:"img/1
 const photosGatos = [{src:"img/1000092915.jpg",name:"1000092915.jpg"},{src:"img/1000092919.jpg",name:"1000092919.jpg"},{src:"img/1000092925.jpg",name:"1000092925.jpg"}];
 const photosSalidas = [{src:"img/1000092928.jpg",name:"1000092928.jpg"},{src:"img/1000092929.jpg",name:"1000092929.jpg"},{src:"img/1000092921.jpg",name:"1000092921.jpg"},{src:"img/1000092931.jpg",name:"1000092931.jpg"}];
 const photosEspeciales = [{src:"img/1000092917.jpg",name:"1000092917.jpg"},{src:"img/1000092922.jpg",name:"1000092922.jpg"},{src:"img/1000092926.jpg",name:"1000092926.jpg"},{src:"img/1000092927.jpg",name:"1000092927.jpg"}];
+const photosCialy = [...photosEspeciales];
 
 // Llenar álbumes
 function fillAlbum(albumId, photos, countId) {
   const grid = document.getElementById(albumId);
-  const allPhotos = [];
+  if (!grid) return;
   photos.forEach((p,i) => {
     const img = document.createElement('img');
     img.src = p.src;
@@ -15,7 +16,6 @@ function fillAlbum(albumId, photos, countId) {
     img.alt = '';
     img.onclick = () => openLightbox(photos.map(x=>x.src), i);
     grid.appendChild(img);
-    allPhotos.push(p.src);
   });
   document.getElementById(countId).textContent = photos.length + ' fotos';
 }
@@ -27,15 +27,12 @@ fillAlbum('album-momentos', photosEspeciales, 'count-momentos');
 fillAlbum('album-cialy', photosCialy, 'count-cialy');
 
 // Llenar salidas con fotos reales
-const photosCialy = photosCouple;
-
 const salidasData = [
   {foto: photosSalidas[0] ? photosSalidas[0].src : null, nombre: 'Ramen juntos', desc: 'El restaurante con los bowls de ramen y cocktails de fresa y margarita 🍜'},
   {foto: photosSalidas[1] ? photosSalidas[1].src : null, nombre: 'Noche de ramen', desc: 'Esa cena especial donde pedimos dos bowls del mismo 🥢'},
   {foto: photosSalidas[2] ? photosSalidas[2].src : null, nombre: 'Surcando las nubes', desc: 'Un viaje, el cielo desde arriba y las nubes al atardecer ✈️'},
   {foto: photosSalidas[3] ? photosSalidas[3].src : null, nombre: 'Noches en la ciudad', desc: 'Salidas nocturnas, ventana del carro y la ciudad de noche 🌙'},
-,
-  {foto: photosCialy[0] ? photosCialy[0].src : null, nombre: 'Fiesta de 15 de Cialy \U0001F389', desc: 'Primera vez que salimos hasta las 3 AM. Los pap\u00E1s de Elian nos llevaron y recogieron. Una noche inolvidable.'}
+  {foto: photosCialy[0] ? photosCialy[0].src : null, nombre: 'Fiesta de 15 de Cialy 🎉', desc: 'Primera vez que salimos hasta las 3 AM. Los papás de Elian nos llevaron y recogieron. Una noche inolvidable.'}
 ];
 
 const sGrid = document.getElementById('salidas-grid');

@@ -1,12 +1,20 @@
 const photosCouple = [
   {src:"img/halloween_1.jpg",name:"Halloween 1"},
   {src:"img/halloween_2.jpg",name:"Halloween 2"},
+  {src:"img/cumple_juanca.jpg",name:"Cumple JuanCa"},
   {src:"img/1000092913.jpg",name:"1000092913.jpg"},{src:"img/1000092914.jpg",name:"1000092914.jpg"},{src:"img/1000092936.jpg",name:"1000092936.jpg"},{src:"img/1000092941.jpg",name:"1000092941.jpg"},{src:"img/1000092942.jpg",name:"1000092942.jpg"},{src:"img/1000092943.jpg",name:"1000092943.jpg"},{src:"img/1000092945.jpg",name:"1000092945.jpg"},{src:"img/1000092946.jpg",name:"1000092946.jpg"},{src:"img/1000092947.jpg",name:"1000092947.jpg"},{src:"img/1000092948.jpg",name:"1000092948.jpg"}
 ];
-const photosElla = [{src:"img/1000092916.jpg",name:"1000092916.jpg"},{src:"img/1000092918.jpg",name:"1000092918.jpg"},{src:"img/1000092920.jpg",name:"1000092920.jpg"},{src:"img/1000092933.jpg",name:"1000092933.jpg"},{src:"img/1000092934.jpg",name:"1000092934.jpg"},{src:"img/1000092940.jpg",name:"1000092940.jpg"},{src:"img/1000092944.jpg",name:"1000092944.jpg"},{src:"img/1000092949.jpg",name:"1000092949.jpg"},{src:"img/1000092950.jpg",name:"1000092950.jpg"}];
+const photosElla = [
+  {src:"img/cabello_liso.jpg",name:"Cabello liso"},
+  {src:"img/flores_mujer.jpg",name:"Flores día de la mujer"},
+  {src:"img/1000092916.jpg",name:"1000092916.jpg"},{src:"img/1000092918.jpg",name:"1000092918.jpg"},{src:"img/1000092920.jpg",name:"1000092920.jpg"},{src:"img/1000092933.jpg",name:"1000092933.jpg"},{src:"img/1000092934.jpg",name:"1000092934.jpg"},{src:"img/1000092940.jpg",name:"1000092940.jpg"},{src:"img/1000092944.jpg",name:"1000092944.jpg"},{src:"img/1000092949.jpg",name:"1000092949.jpg"},{src:"img/1000092950.jpg",name:"1000092950.jpg"}
+];
 const photosGatos = [{src:"img/1000092915.jpg",name:"1000092915.jpg"},{src:"img/1000092919.jpg",name:"1000092919.jpg"},{src:"img/1000092925.jpg",name:"1000092925.jpg"}];
 const photosSalidas = [{src:"img/1000092928.jpg",name:"1000092928.jpg"},{src:"img/1000092929.jpg",name:"1000092929.jpg"},{src:"img/1000092921.jpg",name:"1000092921.jpg"},{src:"img/1000092931.jpg",name:"1000092931.jpg"}];
-const photosEspeciales = [{src:"img/1000092917.jpg",name:"1000092917.jpg"},{src:"img/1000092922.jpg",name:"1000092922.jpg"},{src:"img/1000092926.jpg",name:"1000092926.jpg"},{src:"img/1000092927.jpg",name:"1000092927.jpg"}];
+const photosEspeciales = [
+  {src:"img/carta_valentin.jpg",name:"Carta San Valentín"},
+  {src:"img/1000092917.jpg",name:"1000092917.jpg"},{src:"img/1000092922.jpg",name:"1000092922.jpg"},{src:"img/1000092926.jpg",name:"1000092926.jpg"},{src:"img/1000092927.jpg",name:"1000092927.jpg"}
+];
 const photosCialy = [
   {src:"img/cialy_1.jpg",name:"Gala 1"},
   {src:"img/cialy_2.jpg",name:"Gala 2"},
@@ -43,14 +51,14 @@ const salidasData = [
   {foto: photosSalidas[3].src, nombre: 'Ciudad de noche', desc: 'Ibagué bajo las estrellas, siendo cómplice de nuestras historias 🌙'},
   {foto: "img/cialy_1.jpg", nombre: 'Gala de 15', desc: 'Una noche de baile y elegancia que guardaremos por siempre 🎉'},
   {foto: "img/halloween_1.jpg", nombre: 'Nuestro Halloween', desc: 'De trampa o trato a un hogar cálido con tus padres 🎃'},
-  {foto: null, nombre: 'Noche de Padres', desc: 'Finales de noviembre, desconexión del mundo y conexión con la familia 🍻'},
-  {foto: null, nombre: 'Belleza Radiante', desc: 'Inicios de diciembre, cuando tu cabello liso iluminó mis días ✨'},
+  {foto: "img/bar_papa.jpg", nombre: 'Noche de Padres', desc: 'Finales de noviembre, mi primera salida a un bar con mi papá 🍻'},
+  {foto: "img/cabello_liso.jpg", nombre: 'Belleza Radiante', desc: 'Inicios de diciembre, cuando tu cabello liso iluminó mis días ✨'},
   {foto: null, nombre: 'Kilómetros Juntos', desc: 'El viaje a ver a mi abuela, nuestra primera gran aventura en ruta 🛣️'},
   {foto: null, nombre: 'Reunión en El Salado', desc: 'Madrugadas de risas familiares que no queríamos que terminaran 🏠'},
-  {foto: null, nombre: 'San Valentín a distancia', desc: 'Cuatro días en Cartagena que se sintieron cortos con tu carta 💌'},
+  {foto: "img/carta_valentin.jpg", nombre: 'San Valentín a distancia', desc: 'Cuatro días en Cartagena que se sintieron cortos con tu carta 💌'},
   {foto: null, nombre: 'Mar de Regalos', desc: '3 de marzo, el día que me hiciste sentir el más afortunado 🎁'},
-  {foto: null, nombre: 'Flores para Ti', desc: '8 de marzo, un pequeño detalle para la mujer que lo es todo 💐'},
-  {foto: null, nombre: 'Tarde de Cumple', desc: '19 de abril, celebrando la vida de JuanCa siempre a tu lado 🎂'}
+  {foto: "img/flores_mujer.jpg", nombre: 'Flores para Ti', desc: '8 de marzo, un pequeño detalle para la mujer que lo es todo 💐'},
+  {foto: "img/cumple_juanca.jpg", nombre: 'Tarde de Cumple', desc: '19 de abril, celebrando la vida de JuanCa siempre a tu lado 🎂'}
 ];
 
 const sGrid = document.getElementById('salidas-grid');

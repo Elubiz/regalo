@@ -53,10 +53,10 @@ const salidasData = [
   {foto: "img/halloween_1.jpg", nombre: 'Nuestro Halloween', desc: 'De trampa o trato a un hogar cálido con tus padres 🎃'},
   {foto: "img/bar_papa.jpg", nombre: 'Noche de Padres', desc: 'Finales de noviembre, mi primera salida a un bar con mi papá 🍻'},
   {foto: "img/cabello_liso.jpg", nombre: 'Belleza Radiante', desc: 'Inicios de diciembre, cuando tu cabello liso iluminó mis días ✨'},
-  {foto: null, nombre: 'Kilómetros Juntos', desc: 'El viaje a ver a mi abuela, nuestra primera gran aventura en ruta 🛣️'},
-  {foto: null, nombre: 'Reunión en El Salado', desc: 'Madrugadas de risas familiares que no queríamos que terminaran 🏠'},
+  {foto: "img/viaje_abuela.jpg", nombre: 'Kilómetros Juntos', desc: 'El viaje a ver a mi abuela, nuestra primera gran aventura en ruta 🛣️'},
+  {foto: "img/salado.jpg", nombre: 'Reunión en El Salado', desc: 'Madrugadas de risas familiares que no queríamos que terminaran 🏠'},
   {foto: "img/carta_valentin.jpg", nombre: 'San Valentín a distancia', desc: 'Cuatro días en Cartagena que se sintieron cortos con tu carta 💌'},
-  {foto: null, nombre: 'Mar de Regalos', desc: '3 de marzo, el día que me hiciste sentir el más afortunado 🎁'},
+  {foto: "img/regalos.jpg", nombre: 'Mar de Regalos', desc: '3 de marzo, el día que me hiciste sentir el más afortunado 🎁'},
   {foto: "img/flores_mujer.jpg", nombre: 'Flores para Ti', desc: '8 de marzo, un pequeño detalle para la mujer que lo es todo 💐'},
   {foto: "img/cumple_juanca.jpg", nombre: 'Tarde de Cumple', desc: '19 de abril, celebrando la vida de JuanCa siempre a tu lado 🎂'}
 ];

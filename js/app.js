@@ -1,15 +1,14 @@
-  const photosCouple = [
-  {src:"img/halloween_1.jpg",name:"Halloween 1"},
-  {src:"img/halloween_2.jpg",name:"Halloween 2"},
+const photosCouple = [
+  {src:"img/halloween_2.jpg",name:"Halloween"},
   {src:"img/cumple_juanca.jpg",name:"Cumple JuanCa"},
-  {src:"img/1000092913.jpg",name:"1000092913.jpg"},{src:"img/1000092914.jpg",name:"1000092914.jpg"},{src:"img/1000092936.jpg",name:"1000092936.jpg"},{src:"img/1000092941.jpg",name:"1000092941.jpg"},{src:"img/1000092942.jpg",name:"1000092942.jpg"},{src:"img/1000092943.jpg",name:"1000092943.jpg"},{src:"img/1000092945.jpg",name:"1000092945.jpg"},{src:"img/1000092946.jpg",name:"1000092946.jpg"},{src:"img/1000092947.jpg",name:"1000092947.jpg"},{src:"img/1000092948.jpg",name:"1000092948.jpg"}
+  {src:"img/1000092913.jpg",name:"Juntos"},{src:"img/1000092914.jpg",name:"Juntos"},{src:"img/1000092936.jpg",name:"Juntos"},{src:"img/1000092941.jpg",name:"Juntos"},{src:"img/1000092942.jpg",name:"Juntos"},{src:"img/1000092943.jpg",name:"Juntos"},{src:"img/1000092945.jpg",name:"Juntos"},{src:"img/1000092946.jpg",name:"Juntos"},{src:"img/1000092947.jpg",name:"Juntos"},{src:"img/1000092948.jpg",name:"Juntos"}
 ];
 const photosElla = [
   {src:"img/cabello_liso.jpg",name:"Cabello liso"},
   {src:"img/flores_mujer.jpg",name:"Flores día de la mujer"},
-  {src:"img/1000092922.jpg",name:"Selfie espejo"},
-  {src:"img/1000092927.jpg",name:"Daniela bebé"},
-  {src:"img/1000092916.jpg",name:"1000092916.jpg"},{src:"img/1000092918.jpg",name:"1000092918.jpg"},{src:"img/1000092920.jpg",name:"1000092920.jpg"},{src:"img/1000092933.jpg",name:"1000092933.jpg"},{src:"img/1000092934.jpg",name:"1000092934.jpg"},{src:"img/1000092940.jpg",name:"1000092940.jpg"},{src:"img/1000092944.jpg",name:"1000092944.jpg"},{src:"img/1000092949.jpg",name:"1000092949.jpg"},{src:"img/1000092950.jpg",name:"1000092950.jpg"}
+  {src:"img/1000092922.jpg",name:"Selfie"},
+  {src:"img/1000092927.jpg",name:"Daniela"},
+  {src:"img/1000092916.jpg",name:"Daniela"},{src:"img/1000092918.jpg",name:"Daniela"},{src:"img/1000092920.jpg",name:"Daniela"},{src:"img/1000092933.jpg",name:"Daniela"},{src:"img/1000092934.jpg",name:"Daniela"},{src:"img/1000092940.jpg",name:"Daniela"},{src:"img/1000092944.jpg",name:"Daniela"},{src:"img/1000092949.jpg",name:"Daniela"},{src:"img/1000092950.jpg",name:"Daniela"}
 ];
 const photosGatos = [{src:"img/1000092915.jpg",name:"1000092915.jpg"},{src:"img/1000092919.jpg",name:"1000092919.jpg"},{src:"img/1000092925.jpg",name:"1000092925.jpg"}];
 const photosSalidas = [{src:"img/1000092928.jpg",name:"1000092928.jpg"},{src:"img/1000092929.jpg",name:"1000092929.jpg"},{src:"img/1000092921.jpg",name:"1000092921.jpg"},{src:"img/1000092931.jpg",name:"1000092931.jpg"}];
@@ -57,8 +56,7 @@ const salidasData = [
   {foto: "img/cabello_liso.jpg", nombre: 'Mi regalo de navidad', desc: 'Inicios de diciembre, cuando tu cabello liso iluminó mis días ✨'},
   {foto: "img/viaje_abuela.jpg", nombre: 'Kilómetros Juntos', desc: 'El viaje a ver a mi abuela, nuestra primera gran aventura en ruta  🛣️'},
   {foto: "img/salado.jpg", nombre: 'Reunión en El Salado', desc: 'Un dia más para vernos pasar tiempo juntos y que conozcas más de mi vida'},
-  {foto: "img/carta_valentin.jpg", nombre: 'San Valentín a distancia', desc: 'Cuatro días en Cartagena que se sintieron cortos con tu carta 💌'},
-  {foto: "img/regalos.jpg", nombre: 'Mar de Regalos', desc: '3 de marzo, el día que me hiciste sentir el  hombre más amado del mundo 🎁'},
+  {foto: "img/regalos.jpg", nombre: 'Mar de Regalos', desc: '3 de marzo, el día que me hiciste sentir el hombre más amado del mundo 🎁'},
   {foto: "img/flores_mujer.jpg", nombre: 'Flores para Ti', desc: '8 de marzo, un pequeño detalle para la mujer que lo es todo 💐'},
   {foto: "img/cumple_juanca.jpg", nombre: 'Tarde de Cumple', desc: '19 de abril, celebrando la vida de JuanCa siempre a tu lado 🎂'}
 ];

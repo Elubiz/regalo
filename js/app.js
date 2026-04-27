@@ -1,4 +1,4 @@
-const photosCouple = [
+  const photosCouple = [
   {src:"img/halloween_1.jpg",name:"Halloween 1"},
   {src:"img/halloween_2.jpg",name:"Halloween 2"},
   {src:"img/cumple_juanca.jpg",name:"Cumple JuanCa"},
@@ -47,18 +47,18 @@ fillAlbum('album-cialy', photosCialy, 'count-cialy');
 
 // Llenar salidas con fotos reales
 const salidasData = [
-  {foto: photosSalidas[0].src, nombre: 'Aquel Ramen', desc: 'Nuestra cita favorita, donde los sabores se mezclan con risas y cocktails 🍜'},
+  {foto: photosSalidas[0].src, nombre: 'Aquel Ramen', desc: 'La primera vez que comi ramen y tuve una salida de este tipo con alguien jijiji'},
   {foto: photosSalidas[1].src, nombre: 'Cena Especial', desc: 'Compartir el mismo plato, la misma mirada y el mismo amor 🥢'},
-  {foto: photosSalidas[2].src, nombre: 'Vuelo compartido', desc: 'El cielo se ve más azul cuando estamos juntos sobre las nubes ✈️'},
-  {foto: photosSalidas[3].src, nombre: 'Ciudad de noche', desc: 'Ibagué bajo las estrellas, siendo cómplice de nuestras historias 🌙'},
-  {foto: "img/cialy_1.jpg", nombre: 'Gala de 15', desc: 'Una noche de baile y elegancia que guardaremos por siempre 🎉'},
-  {foto: "img/halloween_1.jpg", nombre: 'Nuestro Halloween', desc: 'De trampa o trato a un hogar cálido con tus padres 🎃'},
-  {foto: "img/bar_papa.jpg", nombre: 'Noche de Padres', desc: 'Finales de noviembre, mi primera salida a un bar con mi papá 🍻'},
-  {foto: "img/cabello_liso.jpg", nombre: 'Belleza Radiante', desc: 'Inicios de diciembre, cuando tu cabello liso iluminó mis días ✨'},
-  {foto: "img/viaje_abuela.jpg", nombre: 'Kilómetros Juntos', desc: 'El viaje a ver a mi abuela, nuestra primera gran aventura en ruta 🛣️'},
-  {foto: "img/salado.jpg", nombre: 'Reunión en El Salado', desc: 'Madrugadas de risas familiares que no queríamos que terminaran 🏠'},
+  {foto: photosSalidas[2].src, nombre: '1404km lejos de ti', desc: 'El cielo se ve tan ireal, pero más ireal es el amor que siento por ti ✈️'},
+  {foto: photosSalidas[3].src, nombre: 'Ciudad de noche', desc: 'La hermosa noche, el frio de la carretera y tú a mi lado es una combinación que amo🌙'},
+  {foto: "img/cialy_1.jpg", nombre: 'Fiesta de 15', desc: 'Nuestra priemra noche juntos hasta tarde y nuestra primera salida de eset tipo🎉'},
+  {foto: "img/halloween_1.jpg", nombre: 'Nuestro Halloween', desc: 'Dulce o ... jijiji pasamos la noche con tu familia y mi primer hallowen contigo y tu familia 🎃'},
+  {foto: "img/bar_papa.jpg", nombre: 'Padre e hijo', desc: 'Finales de noviembre, mi primera salida a un bar con mi papá, a pesar de la distancia hablaba aun de ti y te pensaba🍻'},
+  {foto: "img/cabello_liso.jpg", nombre: 'Mi regalo de navidad', desc: 'Inicios de diciembre, cuando tu cabello liso iluminó mis días ✨'},
+  {foto: "img/viaje_abuela.jpg", nombre: 'Kilómetros Juntos', desc: 'El viaje a ver a mi abuela, nuestra primera gran aventura en ruta  🛣️'},
+  {foto: "img/salado.jpg", nombre: 'Reunión en El Salado', desc: 'Un dia más para vernos pasar tiempo juntos y que conozcas más de mi vida'},
   {foto: "img/carta_valentin.jpg", nombre: 'San Valentín a distancia', desc: 'Cuatro días en Cartagena que se sintieron cortos con tu carta 💌'},
-  {foto: "img/regalos.jpg", nombre: 'Mar de Regalos', desc: '3 de marzo, el día que me hiciste sentir el más afortunado 🎁'},
+  {foto: "img/regalos.jpg", nombre: 'Mar de Regalos', desc: '3 de marzo, el día que me hiciste sentir el  hombre más amado del mundo 🎁'},
   {foto: "img/flores_mujer.jpg", nombre: 'Flores para Ti', desc: '8 de marzo, un pequeño detalle para la mujer que lo es todo 💐'},
   {foto: "img/cumple_juanca.jpg", nombre: 'Tarde de Cumple', desc: '19 de abril, celebrando la vida de JuanCa siempre a tu lado 🎂'}
 ];

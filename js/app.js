@@ -1,7 +1,7 @@
 const photosCouple = [
   {src:"img/halloween_2.jpg",name:"Halloween"},
   {src:"img/cumple_juanca.jpg",name:"Cumple JuanCa"},
-  {src:"img/1000092913.jpg",name:"Juntos"},{src:"img/1000092914.jpg",name:"Juntos"},{src:"img/1000092936.jpg",name:"Juntos"},{src:"img/1000092941.jpg",name:"Juntos"},{src:"img/1000092942.jpg",name:"Juntos"},{src:"img/1000092943.jpg",name:"Juntos"},{src:"img/1000092945.jpg",name:"Juntos"},{src:"img/1000092946.jpg",name:"Juntos"},{src:"img/1000092947.jpg",name:"Juntos"},{src:"img/1000092948.jpg",name:"Juntos"}
+  {src:"img/1000092913.jpg",name:"Juntos"},{src:"img/1000092936.jpg",name:"Juntos"},{src:"img/1000092941.jpg",name:"Juntos"},{src:"img/1000092942.jpg",name:"Juntos"},{src:"img/1000092943.jpg",name:"Juntos"},{src:"img/1000092945.jpg",name:"Juntos"},{src:"img/1000092946.jpg",name:"Juntos"},{src:"img/1000092947.jpg",name:"Juntos"},{src:"img/1000092948.jpg",name:"Juntos"}
 ];
 const photosElla = [
   {src:"img/cabello_liso.jpg",name:"Cabello liso"},

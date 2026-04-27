@@ -1,14 +1,14 @@
 const photosCouple = [
   {src:"img/halloween_2.jpg",name:"Halloween"},
   {src:"img/cumple_juanca.jpg",name:"Cumple JuanCa"},
-  {src:"img/1000092913.jpg",name:"Juntos"},{src:"img/1000092936.jpg",name:"Juntos"},{src:"img/1000092941.jpg",name:"Juntos"},{src:"img/1000092942.jpg",name:"Juntos"},{src:"img/1000092943.jpg",name:"Juntos"},{src:"img/1000092945.jpg",name:"Juntos"},{src:"img/1000092946.jpg",name:"Juntos"},{src:"img/1000092947.jpg",name:"Juntos"},{src:"img/1000092948.jpg",name:"Juntos"}
+  {src:"img/1000092913.jpg",name:"Juntos"},{src:"img/1000092946.jpg",name:"Juntos"},{src:"img/1000092947.jpg",name:"Juntos"},{src:"img/1000092948.jpg",name:"Juntos"}
 ];
 const photosElla = [
   {src:"img/cabello_liso.jpg",name:"Cabello liso"},
   {src:"img/flores_mujer.jpg",name:"Flores día de la mujer"},
   {src:"img/1000092922.jpg",name:"Selfie"},
   {src:"img/1000092927.jpg",name:"Daniela"},
-  {src:"img/1000092916.jpg",name:"Daniela"},{src:"img/1000092918.jpg",name:"Daniela"},{src:"img/1000092920.jpg",name:"Daniela"},{src:"img/1000092933.jpg",name:"Daniela"},{src:"img/1000092934.jpg",name:"Daniela"},{src:"img/1000092940.jpg",name:"Daniela"},{src:"img/1000092941.jpg",name:"Daniela"},{src:"img/1000092944.jpg",name:"Daniela"},{src:"img/1000092949.jpg",name:"Daniela"},{src:"img/1000092950.jpg",name:"Daniela"}
+  {src:"img/1000092916.jpg",name:"Daniela"},{src:"img/1000092918.jpg",name:"Daniela"},{src:"img/1000092920.jpg",name:"Daniela"},{src:"img/1000092933.jpg",name:"Daniela"},{src:"img/1000092934.jpg",name:"Daniela"},{src:"img/1000092940.jpg",name:"Daniela"},{src:"img/1000092941.jpg",name:"Daniela"},{src:"img/1000092942.jpg",name:"Daniela"},{src:"img/1000092943.jpg",name:"Daniela"},{src:"img/1000092944.jpg",name:"Daniela"},{src:"img/1000092945.jpg",name:"Daniela"},{src:"img/1000092949.jpg",name:"Daniela"},{src:"img/1000092950.jpg",name:"Daniela"}
 ];
 const photosGatos = [{src:"img/1000092915.jpg",name:"1000092915.jpg"},{src:"img/1000092919.jpg",name:"1000092919.jpg"},{src:"img/1000092925.jpg",name:"1000092925.jpg"}];
 const photosSalidas = [{src:"img/1000092928.jpg",name:"1000092928.jpg"},{src:"img/1000092929.jpg",name:"1000092929.jpg"},{src:"img/1000092921.jpg",name:"1000092921.jpg"},{src:"img/1000092931.jpg",name:"1000092931.jpg"}];
